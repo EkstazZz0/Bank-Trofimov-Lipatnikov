@@ -10,4 +10,12 @@ public class MainController {
     public String showMain() {
         return "MainView";
     }
+    @GetMapping("/login")
+    public String showLogin() {
+        return "LoginView";
+    }
+    @GetMapping("/registration")
+    public String showRegistration() {
+        return "RegistrationView";
+    }
 }

@@ -1,0 +1,86 @@
+html {
+    font-family: 'Comfortaa', cursive;
+}
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    overflow: auto;
+}
+.login_word {
+    width: 550px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.login_form {
+    align-items: center;
+    width: 550px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+h1 {
+    color: darkblue;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+label{
+    color: darkblue;
+    font-size: 28px;
+}
+
+input[type=text],input[type=password]{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 520px;
+    height: 80px;
+    font-family: 'Comfortaa', cursive;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 30px;
+}
+input[type=submit]{
+    display: block;
+    margin: 0 auto;
+    width: 420px;
+    height: 80px;
+    font-family: 'Comfortaa', cursive;
+    background-color: #5b5b5b;
+    border-radius: 50px;
+    font-size: 24px;
+    padding: initial;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+    transition-duration: 0.5s;
+}
+
+.registration_div {
+    top: 0;
+    width: 550px;
+}
+
+.registration {
+    float: right;
+    font-family: 'Comfortaa', cursive;
+    color: darkblue;
+}
+
+.registration:hover {
+    color: #5b5b5b;
+    transition-duration: 0.5s;
+}
